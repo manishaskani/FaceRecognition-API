@@ -136,7 +136,6 @@ public class MainActivity extends AppCompatActivity  {
                 urlConnection = (HttpURLConnection) url.openConnection();
 
                 urlConnection.setDoInput(true);
-                urlConnection.setDoInput(true);
                 urlConnection.setRequestMethod("POST");
                 urlConnection.setDoOutput(true);
                 urlConnection.setRequestProperty("Content-Length", "" + data.getBytes().length);
